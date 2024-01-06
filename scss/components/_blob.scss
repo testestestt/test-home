@@ -1,0 +1,140 @@
+.logo{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    @include media-breakpoint-up(lg){
+        bottom: 30px;
+    }
+    
+    svg{
+        width: 63px;
+        height: 51px;
+        @include media-breakpoint-up(md){
+            height: 86px;
+            width: 107px;
+        }
+        @include media-breakpoint-up(lg){
+            height: 127px; 
+            width: 158px;
+            &:hover{
+                path{
+                    fill: $yellow;
+                }
+            } 
+        }
+        path{
+            transition: stroke 0.15s ease-in-out, fill 0.15s ease-in-out;
+        }
+    }
+}
+
+.blue-blob{
+    position: absolute;
+    width: 58px;
+    height: 71px;
+    right: 25px;
+    bottom: 72px;
+
+    @include media-breakpoint-up(md){
+        height: 117px;
+        width: 99px;
+        right: 30px;
+        bottom: 115px;
+    }
+    @include media-breakpoint-up(lg){
+        right: 40px;
+        bottom: 168px;
+        height: 168px;
+        width: 139px;
+    }
+    &-text{
+        width: 50px;
+        height: 41px;
+        @include media-breakpoint-up(md){
+            width: 69px;
+            height: 57px;
+        }
+        @include media-breakpoint-up(lg){
+            width: 99px;
+            height: 81px;
+        }
+    }
+}
+
+.orange-blob{
+    position: absolute;
+    width: 117px;
+    height: 96px;
+    bottom: 23px;
+    right: 85px;
+    @include media-breakpoint-up(md){
+        height: 154px;
+        width: 192px;
+        bottom: 33px;
+        right: 133px;
+    }
+    @include media-breakpoint-up(lg){
+        height: 222px;
+        width: 272px;
+        bottom: 45px;
+        right: 182px;
+    }
+    &-text{
+    width: 44px;
+    height: 32px;
+        @include media-breakpoint-up(md){
+            width: 87px;
+            height: 63px;
+        }
+        @include media-breakpoint-up(lg){
+            width: 125px;
+            height: 90px;
+        }
+    }
+}
+
+.green-blob{
+    position: absolute;
+    width: 142px;
+    height: 72px;
+    right: 77px;
+    bottom: 125px;
+    @include media-breakpoint-up(md){
+        height: 117px;
+        width: 184px;
+        right: 137px;
+        bottom: 200px;
+    }
+    @include media-breakpoint-up(lg){
+        height: 168px;
+        width: 261px;
+        bottom: 288px;
+        right: 190px;
+    }
+    &-text{
+    width: 44px;
+    height: 29px;
+        @include media-breakpoint-up(md){
+            width: 88px;
+            height: 58px;
+        }
+        @include media-breakpoint-up(lg){
+            width: 126px;
+            height: 83px;
+        }
+    }
+}
+
+.pink-blob-text{
+    width: 44px;
+    height: 29px;
+    @include media-breakpoint-up(md){
+        width: 79px;
+        height: 56px;
+    }
+    @include media-breakpoint-up(lg){
+        width: 113px;
+        height: 80px;
+    }
+}

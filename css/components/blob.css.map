@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/blob.scss","components/blob.css"],"names":[],"mappings":"AAAA,MAGI,WAAA,CAFA,cAAA,CACA,UCEJ","file":"blob.css","sourcesContent":[".logo{\r\n    position: fixed;\r\n    right: 15px;\r\n    bottom: 15px;\r\n}\r\n",".logo {\n  position: fixed;\n  right: 15px;\n  bottom: 15px;\n}"]}
