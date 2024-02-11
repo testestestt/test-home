@@ -10,3 +10,7 @@ $(document).ready(function() {
     $('.view-height').css('height', innerHeight -  headerHeight);
     $('.socials').css('transform', 'translateY('+ (innerHeightVar - $('.socials').height()) + 'px)');
 });
+
+$(".logo").click(function(){
+    $("html, body").scrollTop(0);
+});
