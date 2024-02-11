@@ -2,7 +2,6 @@ $(window).resize(function() {
     headerHeight = $('header').height();
     innerHeightVar = window.innerHeight;
     $('.view-height').css('height', innerHeightVar -  headerHeight);
-    $('.socials').css('transform', 'translateY('+ (innerHeightVar - $('.socials').height() - 15) + 'px)');
 });
 
 $(document).ready(function() {
