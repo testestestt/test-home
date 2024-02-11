@@ -1,4 +1,4 @@
 
-// $(document).ready(function() {
-//   $("header").load("../partials/header.html");;
-// });
+$(window).on('load', function () {
+    $('.loader-container').delay(200).fadeOut('fast');
+});
